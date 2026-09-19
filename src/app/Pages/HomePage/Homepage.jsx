@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar';
 import Herosection from '../../Components/Herosection/Herosection';
+import Featured from '../../Components/Featured/Featured';
 
 function Homepage() {
   return (
@@ -10,6 +11,9 @@ function Homepage() {
         </div>
         <div className="hero-section">
             <Herosection />
+        </div>
+        <div className="featured-section">
+            <Featured /> 
         </div>
     </section>
   )
