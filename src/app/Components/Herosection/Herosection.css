@@ -33,6 +33,7 @@
 }
 
 .hero-paragraph {
+  text-align: left;
   width: 26rem;
   margin: 2.7rem 0 0;
   color: #ffffff;

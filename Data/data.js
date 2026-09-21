@@ -3,6 +3,11 @@ import birds from "./Images/birds.png"
 import majesty from "./Images/majesty.png"
 import petfriendly from "./Images/petfriendly.png"
 
+import newArrival1 from "./Images/newArrival1.png"
+import newArrival2 from "./Images/newArrival2.png"
+import newArrival3 from "./Images/newArrival3.png"
+import newArrival4 from "./Images/newArrival4.png"
+
 export const Products = [
     {
         image : peperomia,
@@ -26,4 +31,24 @@ export const Products = [
     }
 
 ]
+
+export const newArrivals = [
+    {
+        name : "Lily",
+        image : newArrival1
+    },
+    {
+        name : "Lily",
+        image : newArrival2
+    },
+    {
+        name : "Lily",
+        image : newArrival3
+    },
+    {
+        name : "Lily",
+        image : newArrival4
+    },
+]
+
 
