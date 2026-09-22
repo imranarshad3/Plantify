@@ -3,11 +3,8 @@ import { newArrivals } from '../../../../Data/data';
 import './Newarrivals.css';
 
 function Newarrivals() {
-  // Yeh function product details page par le jane ke liye hai (jab ban jaye)
   const handleProductClick = (productId) => {
     console.log(`Navigating to product details for ID: ${productId}`);
-    // Future mein yahan useNavigate() ya router ka code aega, e.g.:
-    // navigate(`/product/${productId}`);
   };
 
   return (
@@ -40,3 +37,4 @@ function Newarrivals() {
 }
 
 export default Newarrivals;
+

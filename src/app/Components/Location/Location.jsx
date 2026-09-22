@@ -3,14 +3,16 @@ import "./Location.css";
 
 const Location = () => {
   const address =
-    "Gekikara Street 16, Atlanta 1327 Block M Maridal, Sigurre T2G 0T2";
+    "69-C, Block C3, Gulberg III, Lahore, Punjab, Pakistan";
 
   return (
     <section className="location">
       <div className="location-map">
         <iframe
           title="Our Location"
-          src="https://www.google.com/maps?q=Gekikara%20Street%2016%2C%20Atlanta&output=embed"
+          src={`https://www.google.com/maps?q=${encodeURIComponent(
+            address
+          )}&output=embed`}
           loading="lazy"
           allowFullScreen
         ></iframe>
@@ -21,13 +23,13 @@ const Location = () => {
           <h2>Visit us</h2>
 
           <p className="address">
-            Gekikara Street 16, Atlanta
+            69-C, Block C3
             <br />
-            1327 Block M
+            Gulberg III
             <br />
-            Maridal, Sigurre
+            Lahore, Punjab
             <br />
-            T2G 0T2
+            Pakistan
           </p>
 
           <p className="open-day">

@@ -21,7 +21,7 @@ const FreeShipping = () => {
         <div className="contact-info">
           <div className="contact-item">
             <Phone size={18} strokeWidth={1.5} />
-            <span>+62 1189-2719-00</span>
+            <span>0300 1223344</span>
           </div>
 
           <div className="contact-item">

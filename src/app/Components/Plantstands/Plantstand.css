@@ -1,7 +1,7 @@
 .plantstand-section {
   width: 100%;
   padding: 50px 10px;
-  background-color: #ffffff;
+  background-color:  #edf6f5;
   box-sizing: border-box;
   display: flex;
   justify-content: center; 
@@ -12,6 +12,12 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.wraper {
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
 
 .plantstand-header {

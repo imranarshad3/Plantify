@@ -21,7 +21,9 @@ function Plantstand() {
             <div className="plantstand-header">
                 <h2>Plant stands</h2>
             </div>
+            <div className="wraper">
 
+            
             <div className="stands-content-wrapper">
                 <div className="stands-grid">
                     {
@@ -42,6 +44,7 @@ function Plantstand() {
                     }
                 </div>
 
+            </div>
                 <a href="#more" className="side-more-link">
                     more &rarr;
                 </a>
