@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar';
-import Herosection from '../../Components/Herosection/Herosection';
-import Featured from '../../Components/Featured/Featured';
-import Searchfilter from '../../Components/SearchFilter/Searchfilter';
-import Newarrivals from '../../Components/NewArrivals/Newarrivals';
-import Plantstand from '../../Components/Plantstands/Plantstand';
-import Services from '../../Components/Services/Services';
+import Navbar from '../../ReusedComponents/Navbar/Navbar';
+import Herosection from './Components/Herosection/Herosection';
+import Featured from './Components/Featured/Featured';
+import Searchfilter from './Components/SearchFilter/Searchfilter';
+import Newarrivals from './Components/NewArrivals/Newarrivals';
+import Plantstand from './Components/Plantstands/Plantstand';
+import Services from './Components/Services/Services';
 
 import "./HomePage.css"
-import Location from '../../Components/Location/Location';
+import Location from './Components/Location/Location';
 
 function Homepage() {
   return (

@@ -1,9 +1,10 @@
 .hero-section {
   width: 100%;
-  min-height: 44.5rem;
+  /* min-height: 44.5rem; */
   background-color: #005c52;
   display: flex;
   align-items: center;
+  padding-bottom: 60px;
 }
 
 .hero-container {

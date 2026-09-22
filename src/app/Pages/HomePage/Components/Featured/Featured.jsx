@@ -1,6 +1,6 @@
 import React from "react";
 import "./Featured.css";
-import { Products } from "../../../../Data/data";
+import { Products } from "../../../../../../Data/data";
 import ProductCard from "../ProductCard/ProductCard";
 
 function Featured() {

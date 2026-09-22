@@ -1,5 +1,5 @@
 import React from 'react';
-import { newArrivals } from '../../../../Data/data';
+import { newArrivals } from '../../../../../../Data/data';
 import './Newarrivals.css';
 
 function Newarrivals() {
