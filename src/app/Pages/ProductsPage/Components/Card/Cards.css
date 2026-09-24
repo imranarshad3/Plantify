@@ -8,7 +8,7 @@
   font-family: Arial, sans-serif;
 }
 
-/* Image Wrapper */
+
 .product-card-image {
   position: relative;
   width: 100%;
@@ -27,7 +27,7 @@
   display: block;
 }
 
-/* Badge styling (e.g. "SALE", "NEW") */
+
 .product-badge {
   position: absolute;
   top: 12px;
@@ -42,7 +42,7 @@
   z-index: 2;
 }
 
-/* Action buttons (Wishlist & Quick View) - Hidden by default, shown on hover */
+
 .product-actions {
   position: absolute;
   top: 12px;
@@ -101,6 +101,7 @@
   transform: translateY(100%);
   transition: opacity 0.3s ease, transform 0.3s ease;
   z-index: 3;
+  text-decoration: none;
 }
 
 .product-card-image:hover .add-to-cart-btn {
@@ -130,6 +131,7 @@
   font-size: 16px;
   font-weight: 400;
   margin: 0 0 8px 0;
+  text-align: left;
   line-height: 1.3;
 }
 

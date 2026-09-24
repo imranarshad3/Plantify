@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Heart, Eye, Star } from "lucide-react";
 import "./Cards.css";
+import { Link } from "react-router-dom";
 
 function ProductCard({ product }) {
   const [isWishlisted, setIsWishlisted] = useState(false);
@@ -33,18 +34,22 @@ function ProductCard({ product }) {
             />
           </button>
           <button className="action-btn" aria-label="Quick view">
-            <Eye size={18} strokeWidth={1.5} />
+            <Link to={`/product/${product.id}`}>
+                <Eye size={18} strokeWidth={1.5} style={{color:"white"}} />
+            </Link>
           </button>
         </div>
 
         <img
-          src={product.image}
+          src={product.images[0]}
           alt={product.name}
         />
 
-        <button className="add-to-cart-btn">
-          ADD TO CART — ${product.price}
-        </button>
+        <Link to={`/product/${product.id}`}
+        className="add-to-cart-btn">
+            ADD TO CART — ${product.price}
+        </Link>
+        
       </div>
 
       <div className="product-card-content">

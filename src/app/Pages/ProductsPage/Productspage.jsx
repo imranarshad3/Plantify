@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import Navbar from "../../ReusedComponents/Navbar/Navbar";
 import "./Productspage.css";
 
@@ -15,6 +15,13 @@ function Productspage() {
 
   const totalProducts = productsData.length;
   const currentDisplayedCount = 8; 
+      
+
+   useEffect(() => {
+    window.scrollTo(50, 0);
+  }, []);
+
+
   return (
     <main className="products-page">
 

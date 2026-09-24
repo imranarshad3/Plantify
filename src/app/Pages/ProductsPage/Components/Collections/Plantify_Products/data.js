@@ -1,13 +1,12 @@
-import anthurium from "./products/anthurium.png"
-import peperomia from "./products/peperomia.png"
-import birdsnestfern from "./products/birds-nest-fern.png"
-import monstera from "./products/monstera.png"
-import pinkcalathea from "./products/pink-calathea.png"
-import peacelily from "./products/peace-lily.png"
-import snakeplant from "./products/snake-plant.png"
-import zzplant from "./products/zz-plant.png"
-import calatheaorbifolia from "./products/calathea-orbifolia.png"
-
+import anthurium from "./products/anthurium.png";
+import peperomia from "./products/peperomia.png";
+import birdsnestfern from "./products/birds-nest-fern.png";
+import monstera from "./products/monstera.png";
+import pinkcalathea from "./products/pink-calathea.png";
+import peacelily from "./products/peace-lily.png";
+import snakeplant from "./products/snake-plant.png";
+import zzplant from "./products/zz-plant.png";
+import calatheaorbifolia from "./products/calathea-orbifolia.png";
 
 export const products = [
   {
@@ -20,7 +19,7 @@ export const products = [
     rating: 5,
     reviews: 48,
     badge: "SALE",
-    image: anthurium,
+    images: [anthurium, peperomia, birdsnestfern],
     careLevel: "Moderate",
     potColor: "Cream",
     colors: ["#292929", "#e9b86d", "#eee9dc", "#bc6831"],
@@ -30,6 +29,7 @@ export const products = [
     description:
       "A striking flowering houseplant with glossy green leaves and vivid red blooms.",
   },
+
   {
     id: 2,
     name: "Peperomia Ginny",
@@ -40,7 +40,7 @@ export const products = [
     rating: 5,
     reviews: 36,
     badge: "NEW",
-    image: peperomia,
+    images: [peperomia],
     careLevel: "Easy",
     potColor: "Cream",
     colors: ["#292929", "#e9b86d", "#eee9dc", "#bc6831"],
@@ -50,6 +50,7 @@ export const products = [
     description:
       "A compact variegated peperomia with attractive green, cream and pink-edged leaves.",
   },
+
   {
     id: 3,
     name: "Bird's Nest Fern",
@@ -60,7 +61,7 @@ export const products = [
     rating: 5,
     reviews: 29,
     badge: null,
-    image: birdsnestfern,
+    images: [birdsnestfern],
     careLevel: "Moderate",
     potColor: "Cream",
     colors: ["#292929", "#e9b86d", "#eee9dc"],
@@ -70,6 +71,7 @@ export const products = [
     description:
       "A lush tropical fern with broad, gently rippled fronds growing from a central rosette.",
   },
+
   {
     id: 4,
     name: "Monstera Deliciosa",
@@ -80,7 +82,7 @@ export const products = [
     rating: 4,
     reviews: 61,
     badge: "BESTSELLER",
-    image: monstera,
+    images: [monstera],
     careLevel: "Easy",
     potColor: "Cream",
     colors: ["#292929", "#e9b86d", "#eee9dc"],
@@ -90,6 +92,7 @@ export const products = [
     description:
       "A classic tropical houseplant recognized by its large, naturally split leaves.",
   },
+
   {
     id: 5,
     name: "Pink Calathea",
@@ -100,7 +103,7 @@ export const products = [
     rating: 5,
     reviews: 34,
     badge: "NEW",
-    image: pinkcalathea,
+    images: [pinkcalathea],
     careLevel: "Moderate",
     potColor: "Cream",
     colors: ["#292929", "#e9b86d", "#eee9dc"],
@@ -110,6 +113,7 @@ export const products = [
     description:
       "A colorful prayer-plant style houseplant with pink, green and cream foliage.",
   },
+
   {
     id: 6,
     name: "Peace Lily",
@@ -120,7 +124,7 @@ export const products = [
     rating: 4,
     reviews: 52,
     badge: null,
-    image: peacelily,
+    images: [peacelily],
     careLevel: "Easy",
     potColor: "Cream",
     colors: ["#292929", "#e9b86d", "#eee9dc"],
@@ -130,6 +134,7 @@ export const products = [
     description:
       "An elegant flowering plant with glossy foliage and clean white blooms.",
   },
+
   {
     id: 7,
     name: "Snake Plant",
@@ -140,7 +145,7 @@ export const products = [
     rating: 5,
     reviews: 74,
     badge: null,
-    image: snakeplant,
+    images: [snakeplant],
     careLevel: "Easy",
     potColor: "Cream",
     colors: ["#292929", "#e9b86d", "#eee9dc"],
@@ -150,6 +155,7 @@ export const products = [
     description:
       "A hardy architectural plant with upright sword-shaped leaves and minimal watering needs.",
   },
+
   {
     id: 8,
     name: "ZZ Plant",
@@ -160,7 +166,7 @@ export const products = [
     rating: 5,
     reviews: 43,
     badge: null,
-    image: zzplant,
+    images: [zzplant],
     careLevel: "Easy",
     potColor: "Cream",
     colors: ["#292929", "#e9b86d", "#eee9dc"],
@@ -170,6 +176,7 @@ export const products = [
     description:
       "A resilient foliage plant with glossy leaflets and an easy-care growth habit.",
   },
+
   {
     id: 9,
     name: "Calathea Orbifolia",
@@ -180,7 +187,7 @@ export const products = [
     rating: 4,
     reviews: 31,
     badge: null,
-    image: calatheaorbifolia,
+    images: [calatheaorbifolia],
     careLevel: "Moderate",
     potColor: "Cream",
     colors: ["#292929", "#e9b86d", "#eee9dc"],
