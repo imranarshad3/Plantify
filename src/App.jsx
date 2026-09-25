@@ -3,9 +3,11 @@ import "./App.css";
 import Homepage from "./app/Pages/HomePage/Homepage";
 import Productspage from "./app/Pages/ProductsPage/Productspage";
 import ProductDetails from "./app/Pages/ProductDetails/ProductDetails";
+import FertilizerPage from "./app/Pages/FertilizerPage/FertilizerPage";
 
 
 function App() {
+  
   
   return (
     <BrowserRouter>
@@ -13,6 +15,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/products" element={<Productspage/>} />
         <Route path="/product/:id" element={<ProductDetails/>} />
+        <Route path="/fertilizers" element = {<FertilizerPage />} />
       </Routes>
     </BrowserRouter>
   );

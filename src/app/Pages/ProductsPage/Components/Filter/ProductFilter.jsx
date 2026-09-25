@@ -60,8 +60,8 @@ function ProductFilter() {
       value: "#e1846a",
     },
     {
-      name: "Cream",
-      value: "#eee9dc",
+      name: "blue",
+      value: "#31bc82",
     },
     {
       name: "Brown",
@@ -113,7 +113,6 @@ function ProductFilter() {
       maxPrice: value,
     }));
 
-    // Dynamically update the CSS track progress variable
     const min = 10;
     const max = 150;
     const progressPercent = ((value - min) / (max - min)) * 100;
@@ -178,17 +177,16 @@ function ProductFilter() {
         </div>
       </div>
 
-      {/* Pot Color */}
 
-      <div className="filter-section filter-pot-color">
+      <div className="filter-section filter-pots-color">
         <h3>Pot Color</h3>
 
-        <div className="pot-colors">
+        <div className="pots-filter-colors">
           {potColors.map((color) => (
             <button
               type="button"
               key={color.name}
-              className={`pot-color ${
+              className={`pots-filter-color ${
                 filters.potColor === color.value
                   ? "selected"
                   : ""
@@ -205,7 +203,6 @@ function ProductFilter() {
         </div>
       </div>
 
-      {/* Care Level */}
 
       <div className="filter-section care-level">
         <h3>Care Level</h3>

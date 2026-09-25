@@ -19,7 +19,7 @@ function Navbar() {
             <ChevronDown size={14} />
           </Link>
 
-          <Link to="/fertilizer" className="link">
+          <Link to="/fertilizers" className="link">
             Fertilizer
           </Link>
 

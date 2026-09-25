@@ -10,7 +10,7 @@ function ProductSpecs() {
                 <SunDimIcon />
             </div>
             <p className="logo-name">Light</p>
-            <h className="spec-des">Bright indirect</h>
+            <h3 className="spec-des">Bright indirect</h3>
         </div>
         
         <div className="specs-container">
@@ -19,7 +19,7 @@ function ProductSpecs() {
                 
             </div>
             <p className="logo-name">Water</p>
-            <h className="spec-des">Every 7-10 days</h>
+            <h3 className="spec-des">Every 7-10 days</h3>
         </div>
 
         <div className="specs-container">
@@ -27,7 +27,7 @@ function ProductSpecs() {
                 <ScalingIcon />
             </div>
             <p className="logo-name">Height</p>
-            <h className="spec-des">Bright indirect</h>
+            <h3 className="spec-des">Bright indirect</h3>
         </div>
 
         <div className="specs-container">
@@ -35,7 +35,7 @@ function ProductSpecs() {
                 <ShieldCheckIcon />
             </div>
             <p className="logo-name">Protact</p>
-            <h className="spec-des">Bright indirect</h>
+            <h3 className="spec-des">Bright indirect</h3>
         </div>
 
     </div>

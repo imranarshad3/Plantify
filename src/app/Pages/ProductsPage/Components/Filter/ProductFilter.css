@@ -184,19 +184,21 @@
   cursor: pointer;
 }
 
-.filter-pot-color {
+.filter-pots-color {
   padding-bottom: 23px;
   margin-bottom: 22px;
 }
 
-.pot-colors {
+.pots-filter-colors {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 11px;
 }
 
-.pot-color {
+.pots-filter-color {
+  height: 20px;
+  width: 20px;
   text-align: left;
   padding: 0;
   border: 1px solid transparent;
@@ -207,11 +209,11 @@
   color: #151c19;
 }
 
-.pot-color:hover {
+.pots-filter-color:hover {
   transform: scale(1.08);
 }
 
-.pot-color.selected {
+.pots-filter-color.selected {
   border: 2px solid #eee9dc;
   outline: 1px solid #68736e;
   outline-offset: 2px;
